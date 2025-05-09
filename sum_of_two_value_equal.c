@@ -15,6 +15,7 @@ for(int i=0; i<n;i++){
        if(a[i]+ a[j]==x){
         flag=1;
         printf("YES\n");
+        printf("%d %d", a[i],a[j]);
        }
     }
 }
